@@ -3,7 +3,7 @@ C program to check whether a number is positive, negative or zero
 */
 #include<stdio.h>
 int main(){
-    int num;
+    int num; // declares one integer variables to store the input numbers
     printf("Enter a number : ");
     scanf("%d",&num);
     //if the condition is true then the statement inside if {} will be executed
